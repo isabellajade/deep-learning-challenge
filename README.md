@@ -20,18 +20,13 @@ You can view the first attempt starter code [here](Starter_Code.ipynb)
 ## Optimize the Model
 Using much of the same steps as the process before, I used my knowledge of TensorFlow to optimize the model to achieve a target predictive accuracy higher than 75%.
 
-I was tasked to use any or all of the following methods to optimize the model:
+    In order to optimize the model I:
 
-* Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
-    * Dropping more or fewer columns.
-    * Creating more bins for rare occurrences in columns.
-    * Increasing or decreasing the number of values for each bin.
-    * Add more neurons to a hidden layer.
-    * Add more hidden layers.
-    * Use different activation functions for the hidden layers.
-    * Add or reduce the number of epochs to the training regimen.
+    * Dropped fewer columbs by including the 'NAME' column to the database
+    * Created more bins for rare occurrences by binning the 'NAME' column
+    * Added more neurons to the hidden layers
 
-Below is my second attempt:
+Below are the results of my second attempt:
 
 ![second attempt model structure](Images/second_attempt_model_structure.png)
 ![second attempt model eval](Images/second_attempt_model_eval.png)
@@ -41,25 +36,6 @@ You can view the second attempt code [here](AlphabetSoupCharity_Optimization.ipy
 ## Write a Report on the Neural Network Model
 For this part of the assignment, I was tasked to write a report on the performance of the deep learning model I created for Alphabet Soup. The report can be viewed [here](Neural_Network_Model_Report.pdf).
 
-The report should contain the following:
-
-1. Overview of the analysis: Explain the purpose of this analysis.
-
-2. Results: Using bulleted lists and images to support your answers, address the following questions:
-
-* Data Preprocessing
-
-    * What variable(s) are the target(s) for your model?
-    * What variable(s) are the features for your model?
-    * What variable(s) should be removed from the input data because they are neither targets nor features?
-
-* Compiling, Training, and Evaluating the Model
-
-    * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    * Were you able to achieve the target model performance?
-    * What steps did you take in your attempts to increase model performance?
-
-3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
 ## References
 IRS. Tax Exempt Organization Search Bulk Data [Downloads](https://www.irs.gov/charities-non-profits/tax-exempt-organization-search-bulk-data-downloads).
