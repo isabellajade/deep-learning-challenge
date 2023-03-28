@@ -8,6 +8,11 @@ First I read the charity_data.csv to a Pandas DataFrame, and identified what var
 ## Compile, Train, and Evaluate the Model
 I used my knowledge of TensorFlow and designed a neural network to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset.
 
+Here is my first attempt:
+
+![first attempt model structure](Images/first_attempt_model_structure.png)
+![first attempt model eval](Images/first_attempt_model_eval.png)
+
 ## Optimize the Model
 Using much of the same steps as the process before, I used my knowledge of TensorFlow to optimize the model to achieve a target predictive accuracy higher than 75%.
 
@@ -21,6 +26,11 @@ I was tasked to use any or all of the following methods to optimize the model:
     * Add more hidden layers.
     * Use different activation functions for the hidden layers.
     * Add or reduce the number of epochs to the training regimen.
+
+Below is my second attempt:
+
+![second attempt model structure](Images/second_attempt_model_structure.png)
+![second attempt model eval](Images/second_attempt_model_eval.png)
 
 ## Write a Report on the Neural Network Model
 For this part of the assignment, I was tasked to write a report on the performance of the deep learning model I created for Alphabet Soup. The report can be viewed [here](Neural_Network_Model_Report.pdf).
